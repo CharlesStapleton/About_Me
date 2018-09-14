@@ -43,12 +43,24 @@ console.log('Is Green Charles\' favorite color? User guessed: ' + favColor);
 
 // Perfect Question
 var perfect = prompt('Is Charles perfect?');
-var perfectUppercase = perfectUppercase.toUpperCase();
+var perfectUppercase = perfect.toUpperCase();
 if (perfectUppercase === 'Y' || perfectUppercase === 'YES') {
   alert('Correct! I\'ve never done anything wrong.');
 } else if (perfectUppercase === 'N' || perfectUppercase === 'NO') {
-  alert('Wrong! I\'ve never done anything wrong.');
+  alert('Incorrect! I\'ve never done anything wrong.');
 } else {
   alert('Please answer with Y/N or Yes/No.');
 }
 console.log('Is Charles perfect? User guessed: ' + perfect);
+
+// Cat Question
+var cat = prompt('Does Charles own a cat?');
+var catUppercase = cat.toUpperCase();
+if (catUppercase === 'Y' || catUppercase === 'YES') {
+  alert('Correct! Her name is Tux and she is also perfect.');
+} else if (catUppercase === 'N' || catUppercase === 'NO') {
+  alert('Wrong! I own a cat, her name is Tux and she is also perfect.');
+} else {
+  alert('Please answer with Y/N or Yes/No.');
+}
+console.log('Does Charles own a cat? User guessed: ' + cat);
