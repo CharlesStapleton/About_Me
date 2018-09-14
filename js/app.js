@@ -28,3 +28,15 @@ if (favSportUppercase === 'Y' || favSportUppercase === 'YES') {
   alert('Please answer with Y/N or Yes/No.');
 }
 console.log('Is Basketball Charles\' favorite sport? User guessed: ' + favSport);
+
+// Favorite Color Question
+var favColor = prompt('Is Green Charles\' favorite color?');
+var favColorUppercase = favColor.toUpperCase();
+if (favColorUppercase === 'Y' || favColorUppercase === 'YES') {
+  alert('Wrong! It\'s Orange. Green is a runner up tho.');
+} else if (favColorUppercase === 'N' || favColorUppercase === 'NO') {
+  alert('Correct! Orange is best.');
+} else {
+  alert('Please answer with Y/N or Yes/No.');
+}
+console.log('Is Green Charles\' favorite color? User guessed: ' + favColor);
