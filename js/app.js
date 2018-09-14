@@ -40,3 +40,15 @@ if (favColorUppercase === 'Y' || favColorUppercase === 'YES') {
   alert('Please answer with Y/N or Yes/No.');
 }
 console.log('Is Green Charles\' favorite color? User guessed: ' + favColor);
+
+// Perfect Question
+var perfect = prompt('Is Charles perfect?');
+var perfectUppercase = perfectUppercase.toUpperCase();
+if (perfectUppercase === 'Y' || perfectUppercase === 'YES') {
+  alert('Correct! I\'ve never done anything wrong.');
+} else if (perfectUppercase === 'N' || perfectUppercase === 'NO') {
+  alert('Wrong! I\'ve never done anything wrong.');
+} else {
+  alert('Please answer with Y/N or Yes/No.');
+}
+console.log('Is Charles perfect? User guessed: ' + perfect);
