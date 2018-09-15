@@ -3,5 +3,13 @@
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+}
+
+h2 {
+    text-indent: 40px;
+}
+
+ol {
+    padding-left: 60px;
 }
