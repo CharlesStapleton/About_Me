@@ -92,6 +92,7 @@ while (guesses > 0) {
 console.log('How many pets has Charles owned so far? User guessed: ' + petsGuess);
 
 // Countries I Want to Visit Question
+// Referenced Day 4 Demo code
 var countries = ['JAPAN', 'KOREA', 'CHINA', 'RUSSIA', 'FRANCE'];
 var correctAnswer = false;
 var numOfGuesses = 6;
@@ -120,4 +121,5 @@ if (!correctAnswer) {
 }
 console.log('What countries does Charles want to visit? User guessed: ' + countryAnswer);
 
+// Tell user their total score
 alert('Thanks for playing my game! You got ' + numOfCorrectAnswers + ' out of 7 questions right, ' + userName + '.');
